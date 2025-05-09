@@ -2,7 +2,7 @@ import logging
 import re
 from logging.handlers import TimedRotatingFileHandler
 
-from app.core.constant import LOG_PATH_DEFAULT
+from core.constant import LOG_PATH_DEFAULT
 
 
 def logger(

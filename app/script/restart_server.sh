@@ -6,5 +6,5 @@ if [ -n "$pid" ]; then
 else
     echo "未找到名为 main.py 的进程"
 fi
-nohup python3 ./app/main.py >> ./app/log/console.log 2>&1 &
+nohup python ./app/main.py >> ./app/log/console.log 2>&1 &
 echo "main.py 已在后台启动，执行日志将增量写入到 console.log 文件中"

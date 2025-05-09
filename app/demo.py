@@ -1,4 +1,4 @@
-from app.util.logger import log
+from util.logger import log
 
 
 def main():

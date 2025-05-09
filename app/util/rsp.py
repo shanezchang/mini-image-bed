@@ -1,7 +1,7 @@
 from fastapi import status
 
-from app.core.constant import ERROR_MSG
-from app.model.response import BaseResponse
+from core.constant import ERROR_MSG
+from model.response import BaseResponse
 
 
 class Rsp(object):
