@@ -1,3 +1,11 @@
+import os
+import sys
+
+# project base path
+PROJ_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+sys.path.append(PROJ_DIR)
+
 from app.util.logger import log
 from app.core.config import WEB_PORT, WEB_HOST
 
