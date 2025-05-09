@@ -5,7 +5,6 @@
 # PROJ_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 #
 # sys.path.append(PROJ_DIR)
-from exceptiongroup import catch
 
 from util.logger import log
 from core.config import WEB_PORT, WEB_HOST
